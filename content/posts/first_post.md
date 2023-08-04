@@ -8,4 +8,4 @@ draft: false
 
 This is the first post
 
-Wecome
+Welcome everyone

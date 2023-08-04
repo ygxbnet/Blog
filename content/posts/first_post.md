@@ -1,5 +1,5 @@
 ---
-title: "First_post"
+title: "First post"
 date: 2023-08-04T21:03:12+08:00
 draft: false
 ---

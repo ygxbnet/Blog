@@ -11,9 +11,73 @@ title = "YGXB_net 的博客"
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
 
+
 [params]
   # DoIt 主题版本
   version = "0.4.X"
+  # 网站名称
+  title = "YGXB_net 的博客"
+  # 网站描述
+  description = "这是一个我的个人博客网站"
+  # 网站关键词
+  keywords = ["YGXB_net", "博客", "Blog", "Theme", "Hugo"]
+  #  网站默认主题样式 ("light", "dark", "black", "auto")
+  defaultTheme = "auto"
+  # 网站图片, 用于 Open Graph 和 Twitter Cards
+  images = ["/logo.png"]
+
+  #  搜索配置
+  [params.search]
+    enable = true
+    # 搜索引擎的类型 ("algolia", "fuse")
+    type = "fuse"
+    # 文章内容最长索引长度
+    contentLength = 4000
+    # 搜索框的占位提示语
+    placeholder = ""
+    #  最大结果数目
+    maxResultLength = 10
+    #  结果内容片段长度
+    snippetLength = 50
+    #  搜索结果中高亮部分的 HTML 标签
+    highlightTag = "em"
+    #  是否在搜索索引中使用基于 baseURL 的绝对路径
+    absoluteURL = false  
+
+  # 主页配置
+  [params.home]
+    #  RSS 文章数目
+    rss = 10
+    # 主页个人信息
+    [params.home.profile]
+      enable = true
+      # Gravatar 邮箱, 用于优先在主页显示的头像
+      gravatarEmail = ""
+      # 主页显示头像的 URL
+      # 将你的头像文件放置于 static 或者 assets 目录下
+      # 文件路径是相对于 static 或者 assets 目录的
+      avatarURL = "/images/avatar.webp"
+      # 头像的链接指向的 URL
+      avatarLinkURL = ""
+      #  主页显示的网站标题 (支持 HTML 格式)
+      title = "YGXB_net"
+      # 主页显示的网站副标题
+      subtitle = "Hi 这是一个我的个人博客网站"
+      # 是否为副标题显示打字机动画
+      typeit = true
+      # 是否显示社交账号
+      social = true
+      #  免责声明 (支持 HTML 格式)
+      disclaimer = ""
+
+  # 作者的社交信息设置
+  [params.social]
+    GitHub = "ygxbnet"
+    QQ = "3040809965"
+    QQGroup = ""
+    Email = "me@ygxb.net"
+    RSS = true
+
 
 [menu]
   [[menu.main]]
@@ -44,9 +108,24 @@ theme = "DoIt"
     title = ""
     weight = 3
 
+
 # Hugo 解析文档的配置
 [markup]
   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
     # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+
+
+# 作者配置
+[author]
+  name = "YGXB_net"
+  email = "me@ygxb.net"
+  link = ""
+  avatar = ""
+  gravatarEmail = ""
+
+
+# 用于 Hugo 输出文档的设置
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

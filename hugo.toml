@@ -101,6 +101,40 @@ theme = "DoIt"
     Email = "me@ygxb.net"
     RSS = true
 
+  #  文章页面配置
+  [params.page]
+    #  文章页面的分享信息设置
+    [params.page.share]
+      enable = true
+
+      Twitter = true
+      Facebook = true
+      # Linkedin = false
+      # Whatsapp = true
+      # Pinterest = false
+      # Tumblr = false
+      # HackerNews = false
+      Reddit = true
+      # VK = false
+      # Buffer = false
+      # Xing = false
+      # Line = true
+      # Instapaper = false
+      # Pocket = false
+      # Digg = false
+      # Stumbleupon = false
+      # Flipboard = false
+      Weibo = true
+      # Renren = false
+      # Myspace = true
+      # Blogger = true
+      # Baidu = true
+      # Odnoklassniki = false
+      Evernote = true
+      # Skype = false
+      # Trello = false
+      # Mix = false
+      Mastodon = true
 
 [menu]
   [[menu.main]]
@@ -114,6 +148,7 @@ theme = "DoIt"
     # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
     title = ""
     weight = 1
+
   [[menu.main]]
     identifier = "tags"
     pre = ""
@@ -122,6 +157,7 @@ theme = "DoIt"
     url = "/tags/"
     title = ""
     weight = 2
+    
   [[menu.main]]
     identifier = "categories"
     pre = ""

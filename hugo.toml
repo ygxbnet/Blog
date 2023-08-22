@@ -144,15 +144,18 @@ enable = true
 serverURL = "https://waline.ygxb.net"
 pageview = true
 comment = true
-# emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+emoji = [
+    "https://unpkg.com/@waline/emojis@1.2.0/bilibili",
+    'https://unpkg.com/@waline/emojis@1.2.0/weibo',
+]
 # meta = ['nick', 'mail', 'link']
 # requiredMeta = []
 # login = 'enable'
 # wordLimit = 0
 # pageSize = 10
 # imageUploader = false
-# highlighter = false
-# texRenderer = false
+highlighter = true
+texRenderer = true
 
 # 添加不蒜子计数
 [params.busuanzi]

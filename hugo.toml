@@ -138,21 +138,21 @@ Mastodon = true
 # 评论系统设置
 [params.page.comment]
 enable = true
-# Valine 评论系统设置
-[params.page.comment.valine]
+# Waline 评论系统设置
+[params.page.comment.waline]
 enable = true
-appId = "OQrXpJfzrRhlllWtWjgfXxSq-MdYXbMMI"
-appKey = "GtPpdtHtimFxcwO4I6IYrasJ"
-placeholder = "有什么想说的吗？快来写一写！"
-avatar = "retro"
-meta = ""
-pageSize = 10
-lang = ""
-visitor = false
-recordIP = true
-highlight = true
-enableQQ = true
-serverURLs = "https://oqrxpjfz.api.lncldglobal.com"
+serverURL = "https://waline.ygxb.net"
+pageview = true
+comment = true
+# emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+# meta = ['nick', 'mail', 'link']
+# requiredMeta = []
+# login = 'enable'
+# wordLimit = 0
+# pageSize = 10
+# imageUploader = false
+# highlighter = false
+# texRenderer = false
 
 # 添加不蒜子计数
 [params.busuanzi]

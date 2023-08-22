@@ -106,7 +106,6 @@ RSS = true
 #  文章页面的分享信息设置
 [params.page.share]
 enable = true
-
 Twitter = true
 Facebook = true
 # Linkedin = false
@@ -135,6 +134,24 @@ Evernote = true
 # Trello = false
 # Mix = false
 Mastodon = true
+
+# 评论系统设置
+[params.page.comment]
+# Valine 评论系统设置
+[params.page.comment.valine]
+enable = true
+appId = "OQrXpJfzrRhlllWtWjgfXxSq-MdYXbMMI"
+appKey = "GtPpdtHtimFxcwO4I6IYrasJ"
+placeholder = "想说点什么吗？"
+avatar = "mp"
+meta = ""
+pageSize = 10
+lang = ""
+visitor = true
+recordIP = true
+highlight = true
+enableQQ = false
+serverURLs = "https://oqrxpjfz.api.lncldglobal.com"
 
 # 添加不蒜子计数
 [params.busuanzi]

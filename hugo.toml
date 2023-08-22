@@ -146,7 +146,7 @@ pageview = true
 comment = true
 emoji = [
     "https://unpkg.com/@waline/emojis@1.2.0/bilibili",
-    'https://unpkg.com/@waline/emojis@1.2.0/weibo',
+    "https://unpkg.com/@waline/emojis@1.2.0/weibo",
 ]
 # meta = ['nick', 'mail', 'link']
 # requiredMeta = []

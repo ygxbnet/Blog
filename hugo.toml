@@ -149,7 +149,7 @@ emoji = [
     "https://unpkg.com/@waline/emojis@1.2.0/weibo",
 ]
 # meta = ['nick', 'mail', 'link']
-# requiredMeta = []
+requiredMeta = ['nick', 'mail']
 # login = 'enable'
 # wordLimit = 0
 # pageSize = 10

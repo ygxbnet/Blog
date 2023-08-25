@@ -145,8 +145,8 @@ serverURL = "https://waline.ygxb.net"
 pageview = true
 comment = true
 emoji = [
-    "https://cdn.jsdelivr.net/gh/waline/emojis@1.2.0/bilibili",
-    "https://cdn.jsdelivr.net/gh/waline/emojis@1.2.0/weibo",
+    "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
+    "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo",
 ]
 # meta = ['nick', 'mail', 'link']
 requiredMeta = ['nick', 'mail']

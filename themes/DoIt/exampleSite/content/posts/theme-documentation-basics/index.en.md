@@ -294,7 +294,7 @@ Please open the code block below to view the complete sample configuration :(far
     hugo = true
     # {{< version 0.2.14 >}} Hosted on (HTML format is supported)
     # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
-    hostedOn = '' 
+    hostedOn = ''
     # {{< version 0.2.0 >}} whether to show copyright info
     copyright = true
     # {{< version 0.2.0 >}} whether to show the author
@@ -343,6 +343,8 @@ Please open the code block below to view the complete sample configuration :(far
       # Place your avatar file under static or assets directory
       # The filepath is relative to the static or assets directory
       avatarURL = "/images/avatar.webp"
+      # URL the avatar links to
+      avatarLinkURL = ""
       # {{< version 0.2.7 changed >}} title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
@@ -469,6 +471,12 @@ Please open the code block below to view the complete sample configuration :(far
     rssFullText = false
     # {{< version 0.2.13 >}} whether to enable series navigation
     seriesNavigation = true
+    # whether to enable last modified time
+    enableLastMod = true
+    # whether to enable word count
+    enableWordCount = true
+    # whether to enable reading time estimation
+    enableReadingTime = true
     # {{< version 0.2.13 >}} outdated article reminder config
     [params.page.outdatedArticleReminder]
       enable = false
@@ -553,6 +561,7 @@ Please open the code block below to view the complete sample configuration :(far
       Skype = false
       Trello = false
       Mix = false
+      Mastodon = false
     # {{< version 0.2.0 changed >}} Comment config
     [params.page.comment]
       enable = true
@@ -643,6 +652,7 @@ Please open the code block below to view the complete sample configuration :(far
         envId = ""
         region = ""
         path = ""
+        cloudbase = true # boolean : true / false. #If you deploy your Twikoo on CloudBase, set it to true.
         visitor = true
         commentCount = true
       # {{< version 0.2.12 >}} {{< link "https://vssue.js.org/" "Vssue" >}} comment config
@@ -676,6 +686,16 @@ Please open the code block below to view the complete sample configuration :(far
         lightTheme = "light"
         darkTheme = "dark"
         dataLang = "en"
+      # {{< link "https://artalk.js.org/" "artalk" >}} comment config
+      [page.comment.artalk]
+        enable = false
+        server = ""
+        site = ""
+        lite = false
+        katex = false
+        lightbox = false
+        pageview = true
+        commentCount = true
     # {{< version 0.2.7 >}} Third-party library config
     [params.page.library]
       [params.page.library.css]
@@ -911,6 +931,8 @@ You could enable these features with `hugo serve -e production`.
   gravatarEmail = ""
   # URL of avatar shown in home page
   avatarURL = "/images/avatar.webp"
+  # URL the avatar links to
+  avatarLinkURL = ""
 ````
 
 You can sign up and configure your avatar at [Gravatar](https://en.gravatar.com), the website will automatically obtain and set your avatar through the email address filled in `gravatarEmail`.
@@ -1015,7 +1037,7 @@ In `assets/css/_custom.scss`, you can add some css style code to customize the s
 {{< version 0.2.10 changed >}}
 
 | Language             | Hugo Code | HTML `lang` Attribute | Theme Docs                    |
-|:-------------------- |:---------:|:---------------------:|:-----------------------------:|
+|:---------------------|:---------:|:---------------------:|:-----------------------------:|
 | English              | `en`      | `en`                  | :(far fa-check-square fa-fw): |
 | Simplified Chinese   | `zh-cn`   | `zh-CN`               | :(far fa-check-square fa-fw): |
 | French               | `fr`      | `fr`                  | :(far fa-square fa-fw):       |
@@ -1029,6 +1051,17 @@ In `assets/css/_custom.scss`, you can add some css style code to customize the s
 | Russian              | `ru`      | `ru`                  | :(far fa-square fa-fw):       |
 | Romanian             | `ro`      | `ro`                  | :(far fa-square fa-fw):       |
 | Vietnamese           | `vi`      | `vi`                  | :(far fa-square fa-fw):       |
+| Arabic               | `ar`      | `ar`                  | :(far fa-square fa-fw):       |
+| Catalan              | `ca`      | `ca`                  | :(far fa-square fa-fw):       |
+| Hindi                | `hi`      | `hi`                  | :(far fa-square fa-fw):       |
+| Indonesian           | `id`      | `id`                  | :(far fa-square fa-fw):       |
+| Telugu               | `te`      | `te`                  | :(far fa-square fa-fw):       |
+| Thai                 | `th`      | `th`                  | :(far fa-square fa-fw):       |
+| Turkish              | `tr`      | `tr`                  | :(far fa-square fa-fw):       |
+| Ukrainian            | `uk`      | `uk`                  | :(far fa-square fa-fw):       |
+| Traditional Chinese  | `zh-tw`   | `zh-tw`               | :(far fa-square fa-fw):       |
+
+
 
 ### Basic Configuration
 

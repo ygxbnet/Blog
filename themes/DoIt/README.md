@@ -12,7 +12,7 @@ The goal of DoIt theme is to create a powerful and easy-to-use Hugo theme, so yo
 
 ## Getting started
 
-Head to this [documentation page](https://hugodoit.pages.dev/theme-documentation-basics/) for a complete guidence to get started with the DoIt theme.
+Head to this [documentation page](https://hugodoit.pages.dev/theme-documentation-basics/) for a complete guidance to get started with the DoIt theme.
 
 ## Migrate from LoveIt
 
@@ -71,7 +71,7 @@ To see this theme in action, here is a live [demo site](https://hugodoit.pages.d
 * Kinds of **admonitions** shortcode supported
 * Custom style shortcodes supported
 * **CDN** for all third-party libraries supported
-* **Mulitple Authors** supported
+* **Multiple Authors** supported
 * ...
 
 In short,
@@ -126,6 +126,7 @@ the DoIt theme may be more suitable for you.
 * **Vssue** comment system supported by [Vssue](https://vssue.js.org/)
 * **Remark42** comment system supported by[Remark42](https://remark42.com/)
 * **giscus** comment system supported by [giscus](https://giscus.app/)
+* **Artalk** comment system supported by [Artalk](https://artalk.js.org/)
 
 ### Extended Features
 
@@ -177,6 +178,17 @@ DoIt supports the following languages:
 * Russian
 * Romanian
 * Vietnamese
+* Arabic
+* Catalan
+* Hindi
+* Indonesian
+* Korean
+* European Portuguese
+* Tegulu
+* Thai
+* Turkish
+* Ukrainian
+* Traditional Chinese
 * [Contribute with a new language](https://github.com/HEIGE-PCloud/DoIt/pulls)
 
 [Languages Compatibility](https://hugodoit.pages.dev/theme-documentation-basics/#language-compatibility)

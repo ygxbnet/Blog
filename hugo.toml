@@ -142,7 +142,7 @@ enable = true
 [page.comment.artalk]
 enable = true
 server = "https://artalk.ygxb.net"
-site = ""
+site = "Default Site"
 lite = false
 katex = false
 lightbox = false

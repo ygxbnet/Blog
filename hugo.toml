@@ -139,27 +139,27 @@ Mastodon = true
 [params.page.comment]
 enable = true
 # Waline 评论系统设置
-[params.page.comment.waline]
-enable = true
-serverURL = "https://waline.ygxb.net"
-pageview = true
-comment = true
-emoji = [
-    "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
-    "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo",
-]
-# meta = ['nick', 'mail', 'link']
-requiredMeta = ['nick', 'mail']
-# login = 'enable'
-# wordLimit = 0
-# pageSize = 10
-# imageUploader = false
-highlighter = true
-texRenderer = true
+# [params.page.comment.waline]
+# enable = true
+# serverURL = "https://waline.ygxb.net"
+# pageview = true
+# comment = true
+# emoji = [
+#     "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
+#     "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo",
+# ]
+# # meta = ['nick', 'mail', 'link']
+# requiredMeta = ['nick', 'mail']
+# # login = 'enable'
+# # wordLimit = 0
+# # pageSize = 10
+# # imageUploader = false
+# highlighter = true
+# texRenderer = true
 [page.comment.artalk]
 enable = true
-server = ""
-site = ""
+server = "https://artalk.ygxb.net"
+site = "我的博客"
 lite = false
 katex = false
 lightbox = false

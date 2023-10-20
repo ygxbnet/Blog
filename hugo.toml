@@ -138,6 +138,16 @@ Mastodon = true
 # 评论系统设置
 [params.page.comment]
 enable = true
+# artalk 评论系统设置
+[page.comment.artalk]
+enable = true
+server = "https://artalk.ygxb.net"
+site = "我的博客"
+lite = false
+katex = false
+lightbox = false
+pageview = true
+commentCount = true
 # Waline 评论系统设置
 # [params.page.comment.waline]
 # enable = true
@@ -156,15 +166,7 @@ enable = true
 # # imageUploader = false
 # highlighter = true
 # texRenderer = true
-[page.comment.artalk]
-enable = true
-server = "https://artalk.ygxb.net"
-site = "我的博客"
-lite = false
-katex = false
-lightbox = false
-pageview = true
-commentCount = true
+
 
 # 添加不蒜子计数
 [params.busuanzi]

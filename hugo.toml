@@ -138,34 +138,36 @@ Mastodon = true
 # 评论系统设置
 [params.page.comment]
 enable = true
+
 # artalk 评论系统设置
-[page.comment.artalk]
-enable = true
-server = "https://artalk.ygxb.net"
-site = "Default Site"
-lite = false
-katex = false
-lightbox = false
-pageview = true
-commentCount = true
-# Waline 评论系统设置
-# [params.page.comment.waline]
+# [page.comment.artalk]
 # enable = true
-# serverURL = "https://waline.ygxb.net"
+# server = "https://artalk.ygxb.net"
+# site = "Default Site"
+# lite = false
+# katex = false
+# lightbox = false
 # pageview = true
-# comment = true
-# emoji = [
-#     "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
-#     "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo",
-# ]
-# # meta = ['nick', 'mail', 'link']
-# requiredMeta = ['nick', 'mail']
-# # login = 'enable'
-# # wordLimit = 0
-# # pageSize = 10
-# # imageUploader = false
-# highlighter = true
-# texRenderer = true
+# commentCount = true
+
+# Waline 评论系统设置
+[params.page.comment.waline]
+enable = true
+serverURL = "https://waline.ygxb.net"
+pageview = true
+comment = true
+emoji = [
+    "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
+    "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo",
+]
+# meta = ['nick', 'mail', 'link']
+requiredMeta = ['nick', 'mail']
+# login = 'enable'
+# wordLimit = 0
+# pageSize = 10
+# imageUploader = false
+highlighter = true
+texRenderer = true
 
 
 # 添加不蒜子计数

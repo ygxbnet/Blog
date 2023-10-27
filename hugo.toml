@@ -140,10 +140,10 @@ Mastodon = true
 enable = true
 
 # artalk 评论系统设置
-[page.comment.artalk]
+[params.page.comment.artalk]
 enable = true
 server = "https://artalk.ygxb.net"
-site = "Default Site"
+site = "我的博客"
 lite = false
 katex = false
 lightbox = true

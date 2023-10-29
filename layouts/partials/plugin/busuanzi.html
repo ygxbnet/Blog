@@ -7,12 +7,12 @@
 {{ if or (eq .params.site_pv true) (eq .params.site_uv true) (eq .params.page_pv true) }}
 {{ if eq .bsz_type "footer" }}
 <section>
-    {{ if eq .params.site_pv true }}
-    <span id="busuanzi_container_value_site_pv">
-        {{- with .params.page_pv_pre -}}
+    {{ if eq .params.site_uv true }}
+    <span id="busuanzi_container_value_site_uv">
+        {{- with .params.site_uv_pre -}}
         {{ . | safeHTML }}
         {{ end }}
-        访问 <span id="busuanzi_value_site_pv"></span>
+        访客 <span id="busuanzi_value_site_uv"></span>
     </span>
     {{ end }}
 
@@ -20,12 +20,12 @@
     &nbsp;|&nbsp;
     {{ end }}
 
-    {{ if eq .params.site_uv true }}
-    <span id="busuanzi_container_value_site_uv">
-        {{- with .params.site_uv_pre -}}
+    {{ if eq .params.site_pv true }}
+    <span id="busuanzi_container_value_site_pv">
+        {{- with .params.page_pv_pre -}}
         {{ . | safeHTML }}
         {{ end }}
-        访客 <span id="busuanzi_value_site_uv"></span>
+        访问 <span id="busuanzi_value_site_pv"></span>
     </span>
     {{ end }}
 </section>

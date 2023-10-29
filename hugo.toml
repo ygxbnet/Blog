@@ -138,8 +138,7 @@ Mastodon = true
 # 评论系统设置
 [params.page.comment]
 enable = true
-
-# artalk 评论系统设置
+# Artalk 评论系统设置
 [params.page.comment.artalk]
 enable = true
 server = "https://artalk.ygxb.net"
@@ -149,25 +148,6 @@ katex = false
 lightbox = true
 pageview = true
 commentCount = true
-
-# Waline 评论系统设置
-# [params.page.comment.waline]
-# enable = true
-# serverURL = "https://waline.ygxb.net"
-# pageview = true
-# comment = true
-# emoji = [
-#     "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
-#     "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo",
-# ]
-# # meta = ['nick', 'mail', 'link']
-# requiredMeta = ['nick', 'mail']
-# # login = 'enable'
-# # wordLimit = 0
-# # pageSize = 10
-# # imageUploader = false
-# highlighter = true
-# texRenderer = true
 
 
 # 添加不蒜子计数
@@ -239,7 +219,7 @@ name = "YGXB_net"
 email = "me@ygxb.net"
 link = ""
 avatar = ""
-gravatarEmail = ""
+gravatarEmail = "ygxb-net@outlook.com"
 
 
 # 用于 Hugo 输出文档的设置

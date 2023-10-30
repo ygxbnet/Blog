@@ -107,6 +107,8 @@ RSS = true
 
 #  文章页面配置
 [params.page]
+# 是否使用 lightgallery
+lightgallery = true
 #  文章页面的分享信息设置
 [params.page.share]
 enable = true

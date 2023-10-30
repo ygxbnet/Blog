@@ -203,6 +203,13 @@ avatar = ""
 gravatarEmail = "ygxb-net@outlook.com"
 
 
+# 网站地图配置
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
+
 # 用于 Hugo 输出文档的设置
 [outputs]
 home = ["HTML", "RSS", "JSON"]

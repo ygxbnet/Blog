@@ -101,7 +101,7 @@ disclaimer = ""
 [params.social]
 GitHub = "ygxbnet"
 QQ = "3040809965"
-QQGroup = ""
+# QQGroup = ""
 Email = "me@ygxb.net"
 RSS = true
 

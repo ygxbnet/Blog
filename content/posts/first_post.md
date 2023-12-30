@@ -11,11 +11,9 @@ This is the first post
 
 Welcome everyone
 
----
+
 
 ## This is test
-
-<!--more-->
 
 ## Headers
 

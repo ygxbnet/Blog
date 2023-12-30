@@ -2,7 +2,7 @@
 title: "我的第一篇测试文章"
 date: 2023-08-04T21:03:12+08:00
 draft: false
-featuredImage: https://hugodoit.pages.dev/zh-cn/theme-documentation-basics/featured-image.webp
+featuredImage: https://hugodoit.pages.dev/zh-cn/theme-documentation-built-in-shortcodes/featured-image.webp
 ---
 
 ## Hello

@@ -102,7 +102,7 @@ disclaimer = ""
 GitHub = "ygxbnet"
 QQ = "3040809965"
 # QQGroup = ""
-Email = "me@ygxb.net"
+Email = "hi@ygxb.net"
 RSS = true
 
 #  文章页面配置
@@ -199,7 +199,7 @@ noClasses = false
 # 作者配置
 [author]
 name = "YGXB_net"
-email = "me@ygxb.net"
+email = "hi@ygxb.net"
 link = ""
 avatar = ""
 gravatarEmail = "ygxb-net@outlook.com"

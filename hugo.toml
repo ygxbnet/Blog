@@ -196,6 +196,10 @@ weight = 3
 noClasses = false
 
 
+[frontmatter]
+lastmod = [':fileModTime', 'lastmod', ':git', ':default']
+
+
 # 作者配置
 [author]
 name = "YGXB_net"

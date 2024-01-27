@@ -197,7 +197,7 @@ noClasses = false
 
 
 [frontmatter]
-lastmod = [':fileModTime', 'lastmod', ':git', ':default']
+lastmod = [':fileModTime', 'lastmod', ':git']
 
 
 # 作者配置

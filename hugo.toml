@@ -157,6 +157,7 @@ pageview = true
 commentCount = true
 
 
+# 菜单
 [menu]
 [[menu.main]]
 identifier = "posts"

@@ -7,11 +7,10 @@ languageCode = "zh-CN"
 hasCJKLanguage = true
 # 网站标题
 title = "YGXB_net 的博客"
-
+# 启用 GitInfo
 enableGitInfo = true
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
-
 
 [params]
 # DoIt 主题版本
@@ -28,11 +27,9 @@ defaultTheme = "auto"
 images = ["https://img.ygxb.net/i/2023/08/25/64e8bc4fcc148.jpg"]
 #  版权信息
 license = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。'
-
 # 不蒜子访问计数
 [params.ibruce]
 enable = true
-
 #  搜索配置
 [params.search]
 enable = true
@@ -50,7 +47,6 @@ snippetLength = 50
 highlightTag = "em"
 #  是否在搜索索引中使用基于 baseURL 的绝对路径
 absoluteURL = false
-
 # 页面底部信息配置
 [params.footer]
 enable = true
@@ -71,7 +67,6 @@ since = 2023
 icp = ""
 # 许可协议信息 (支持 HTML 格式)
 license = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0;display:inline;" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。'
-
 # 主页配置
 [params.home]
 #  RSS 文章数目
@@ -97,7 +92,6 @@ typeit = true
 social = true
 #  免责声明 (支持 HTML 格式)
 disclaimer = ""
-
 # 作者的社交信息设置
 [params.social]
 GitHub = "ygxbnet"
@@ -105,7 +99,6 @@ QQ = "3040809965"
 # QQGroup = ""
 Email = "hi@ygxb.net"
 RSS = true
-
 #  文章页面配置
 [params.page]
 # 是否使用 lightgallery
@@ -115,33 +108,10 @@ lightgallery = true
 enable = true
 Twitter = true
 Facebook = true
-# Linkedin = false
-# Whatsapp = true
-# Pinterest = false
-# Tumblr = false
-# HackerNews = false
 Reddit = true
-# VK = false
-# Buffer = false
-# Xing = false
-# Line = true
-# Instapaper = false
-# Pocket = false
-# Digg = false
-# Stumbleupon = false
-# Flipboard = false
 Weibo = true
-# Renren = false
-# Myspace = true
-# Blogger = true
-# Baidu = true
-# Odnoklassniki = false
 Evernote = true
-# Skype = false
-# Trello = false
-# Mix = false
 Mastodon = true
-
 # 评论系统设置
 [params.page.comment]
 enable = true
@@ -155,7 +125,12 @@ katex = false
 lightbox = true
 pageview = true
 commentCount = true
-
+# DoIt 新增 | 0.2.10 网站 SEO 配置
+[params.seo]
+# 图片 URL
+image = "https://img.ygxb.net/i/2023/08/25/64e8bc4fcc148.jpg"
+# 缩略图 URL
+thumbnailUrl = ""
 
 # 菜单
 [menu]
@@ -170,7 +145,6 @@ url = "/posts/"
 # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
 title = ""
 weight = 1
-
 [[menu.main]]
 identifier = "tags"
 pre = ""
@@ -179,7 +153,6 @@ name = "标签"
 url = "/tags/"
 title = ""
 weight = 2
-
 [[menu.main]]
 identifier = "categories"
 pre = ""
@@ -189,20 +162,10 @@ url = "/categories/"
 title = ""
 weight = 3
 
-
-# DoIt 新增 | 0.2.10 网站 SEO 配置
-[params.seo]
-# 图片 URL
-image = "https://img.ygxb.net/i/2023/08/25/64e8bc4fcc148.jpg"
-# 缩略图 URL
-thumbnailUrl = ""
-
-
 # Permalinks 配置
 [Permalinks]
 # posts = ":year/:month/:filename"
 posts = ":slug"
-
 
 # Hugo 解析文档的配置
 [markup]
@@ -211,10 +174,8 @@ posts = ":slug"
 # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
 noClasses = false
 
-
 [frontmatter]
 lastmod = [':git', 'lastmod']
-
 
 # 作者配置
 [author]
@@ -224,13 +185,11 @@ link = ""
 avatar = ""
 gravatarEmail = "ygxb-net@outlook.com"
 
-
 # 网站地图配置
 [sitemap]
 changefreq = "weekly"
 filename = "sitemap.xml"
 priority = 0.5
-
 
 # 用于 Hugo 输出文档的设置
 [outputs]

@@ -1,7 +1,16 @@
 ---
-title: "我的第一篇测试文章"
+title: "测试文章"
 date: 2023-08-04T21:03:12+08:00
 draft: false
+
+# 文章短链接
+slug: test
+# 分类
+categories: [""]
+# 标签
+tags:
+
+# 文章图片
 featuredImage: https://hugodoit.pages.dev/zh-cn/theme-documentation-built-in-shortcodes/featured-image.webp
 ---
 

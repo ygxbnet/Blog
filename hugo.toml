@@ -103,6 +103,20 @@ RSS = true
 [params.page]
 # 是否使用 lightgallery
 lightgallery = true
+# 目录配置
+[params.page.toc]
+# 是否使用目录
+enable = true
+# 是否保持使用文章前面的静态目录
+keepStatic = false
+# 是否使侧边目录自动折叠展开
+auto = false
+# 代码配置
+[params.page.code]
+# 是否显示代码块的复制按钮
+copy = true
+# 默认展开显示的代码行数
+maxShownLines = 1000
 #  文章页面的分享信息设置
 [params.page.share]
 enable = true
@@ -125,7 +139,7 @@ katex = false
 lightbox = true
 pageview = true
 commentCount = true
-# DoIt 新增 | 0.2.10 网站 SEO 配置
+# 网站 SEO 配置
 [params.seo]
 # 图片 URL
 image = "https://img.ygxb.net/i/2023/08/25/64e8bc4fcc148.jpg"

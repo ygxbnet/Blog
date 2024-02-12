@@ -189,7 +189,7 @@ posts = "posts/:slug"
 noClasses = false
 
 [frontmatter]
-lastmod = [':git', 'lastmod']
+lastmod = [':git', 'lastmod', ':default']
 
 # 作者配置
 [author]

@@ -7,11 +7,13 @@ featuredImage: https://hugodoit.pages.dev/zh-cn/theme-documentation-built-in-sho
 
 ## Hello
 
+测试文章，啥都有，挺乱的，没啥好看的
+
+建议可以去底下[评论区](#comments)玩玩
+
 This is the first post
 
 Welcome everyone
-
-
 
 ## This is test
 

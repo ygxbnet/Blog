@@ -45,7 +45,7 @@ featuredImage: https://img.ygxb.net/i/2024/02/06/65c24b4be3105.webp
 安装好 Scoop 后只需执行以下命令即可完成 GoReleaser 安装
 
 ```shell
-scoop install goreleaser 
+scoop install goreleaser
 ```
 
 ### 使用二进制文件安装
@@ -159,7 +159,7 @@ jobs:
 
 ### 注意
 
-在 `release.yml` 文件中 如果把 `GITHUB_TOKEN` 设置成 `${{ secrets.GITHUB_TOKEN }}` 
+在 `release.yml` 文件中 如果把 `GITHUB_TOKEN` 设置成 `${{ secrets.GITHUB_TOKEN }}`
 
 那 Release 会由 github-actions 来发布，如下图
 
@@ -178,7 +178,7 @@ jobs:
 
 ## 其它
 
-哈！终于把这篇教程写完了，前前后后加起来差不多写了4天
+哈！终于把这篇教程写完了，前前后后加起来差不多写了 4 天
 
 这也算是我这个小小博客的第一篇文章吧，可喜可贺，终于克服懒癌写出来了（笑
 

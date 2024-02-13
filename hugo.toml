@@ -167,36 +167,6 @@ image = "https://img.ygxb.net/i/2023/08/25/64e8bc4fcc148.jpg"
 # 缩略图 URL
 thumbnailUrl = ""
 
-# 菜单
-[menu]
-[[menu.main]]
-identifier = "posts"
-# 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-pre = ""
-# 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-post = ""
-name = "文章"
-url = "/posts/"
-# 当你将鼠标悬停在此菜单链接上时, 将显示的标题
-title = ""
-weight = 1
-[[menu.main]]
-identifier = "tags"
-pre = ""
-post = ""
-name = "标签"
-url = "/tags/"
-title = ""
-weight = 2
-[[menu.main]]
-identifier = "categories"
-pre = ""
-post = ""
-name = "分类"
-url = "/categories/"
-title = ""
-weight = 3
-
 # Permalinks 配置
 [Permalinks]
 # posts = ":year/:month/:filename"

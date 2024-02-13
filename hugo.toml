@@ -92,6 +92,12 @@ typeit = true
 social = true
 #  免责声明 (支持 HTML 格式)
 disclaimer = ""
+# 最近更新文章设置
+[params.section.recentlyUpdated]
+enable = true
+rss = false
+days = 30
+maxCount = 10
 # 作者的社交信息设置
 [params.social]
 GitHub = "ygxbnet"
@@ -103,6 +109,8 @@ RSS = true
 [params.page]
 # 是否使用 lightgallery
 lightgallery = true
+# 是否在 RSS 中显示全文内容
+rssFullText = true
 # 目录配置
 [params.page.toc]
 # 是否使用目录

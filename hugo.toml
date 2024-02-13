@@ -27,9 +27,11 @@ defaultTheme = "auto"
 images = ["https://img.ygxb.net/i/2023/08/25/64e8bc4fcc148.jpg"]
 #  版权信息
 license = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。'
+
 # 不蒜子访问计数
 [params.ibruce]
 enable = true
+
 #  搜索配置
 [params.search]
 enable = true
@@ -47,6 +49,7 @@ snippetLength = 50
 highlightTag = "em"
 #  是否在搜索索引中使用基于 baseURL 的绝对路径
 absoluteURL = false
+
 # 页面底部信息配置
 [params.footer]
 enable = true
@@ -67,6 +70,7 @@ since = 2023
 icp = ""
 # 许可协议信息 (支持 HTML 格式)
 license = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0;display:inline;" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。'
+
 # 主页配置
 [params.home]
 #  RSS 文章数目
@@ -92,12 +96,14 @@ typeit = true
 social = true
 #  免责声明 (支持 HTML 格式)
 disclaimer = ""
+
 # 最近更新文章设置
 [params.section.recentlyUpdated]
 enable = true
 rss = false
 days = 30
 maxCount = 10
+
 # 作者的社交信息设置
 [params.social]
 GitHub = "ygxbnet"
@@ -105,12 +111,14 @@ QQ = "3040809965"
 # QQGroup = ""
 Email = "hi@ygxb.net"
 RSS = true
+
 #  文章页面配置
 [params.page]
 # 是否使用 lightgallery
 lightgallery = true
 # 是否在 RSS 中显示全文内容
 rssFullText = true
+
 # 目录配置
 [params.page.toc]
 # 是否使用目录
@@ -119,12 +127,14 @@ enable = true
 keepStatic = false
 # 是否使侧边目录自动折叠展开
 auto = false
+
 # 代码配置
 [params.page.code]
 # 是否显示代码块的复制按钮
 copy = true
 # 默认展开显示的代码行数
 maxShownLines = 1000
+
 #  文章页面的分享信息设置
 [params.page.share]
 enable = true
@@ -134,9 +144,11 @@ Reddit = true
 Weibo = true
 Evernote = true
 Mastodon = true
+
 # 评论系统设置
 [params.page.comment]
 enable = true
+
 # Artalk 评论系统设置
 [params.page.comment.artalk]
 enable = true
@@ -147,6 +159,7 @@ katex = false
 lightbox = true
 pageview = true
 commentCount = true
+
 # 网站 SEO 配置
 [params.seo]
 # 图片 URL

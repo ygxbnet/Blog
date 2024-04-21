@@ -11,7 +11,7 @@ categories: [""]
 tags:
 
 # 文章图片
-featuredImage: https://hugodoit.pages.dev/zh-cn/theme-documentation-built-in-shortcodes/featured-image.webp
+featuredImage: https://hugodoit.pages.dev/theme-documentation-built-in-shortcodes/featured-image_hu5e149ff0ba882ef9c28d14ece1f3f861_14228_800x0_resize_q75_h2_lanczos_2.webp
 ---
 
 ## Hello

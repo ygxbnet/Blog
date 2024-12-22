@@ -167,6 +167,14 @@ image = "https://img.ygxb.net/i/2023/08/25/64e8bc4fcc148.jpg"
 # 缩略图 URL
 thumbnailUrl = ""
 
+# 作者配置
+[params.author]
+name = "YGXB_net"
+email = "hi@ygxb.net"
+link = ""
+avatar = ""
+gravatarEmail = "ygxb-net@outlook.com"
+
 # Permalinks 配置
 [Permalinks]
 # posts = ":year/:month/:filename"
@@ -181,14 +189,6 @@ noClasses = false
 
 [frontmatter]
 lastmod = [':git', 'lastmod', ':default']
-
-# 作者配置
-[author]
-name = "YGXB_net"
-email = "hi@ygxb.net"
-link = ""
-avatar = ""
-gravatarEmail = "ygxb-net@outlook.com"
 
 # 网站地图配置
 [sitemap]

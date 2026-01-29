@@ -2,9 +2,13 @@
 // Custom style
 // 自定义样式
 // ==============================
-header {
-    // background-color: #f8f8f8d6;
-    opacity: 0.5;
+.light header {
+    background-color: #f8f8f8d6;
+    backdrop-filter: blur(5px);
+}
+
+.dark header {
+    background-color: #161b22d6;
     backdrop-filter: blur(5px);
 }
 

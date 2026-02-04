@@ -175,6 +175,9 @@
     [markup.highlight]
         # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
         noClasses = false
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
 
 [frontmatter]
     lastmod = [':git', 'lastmod', ':default']

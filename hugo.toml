@@ -148,7 +148,6 @@ Mastodon = true
 # 评论系统设置
 [params.page.comment]
 enable = true
-
 # Artalk 评论系统设置
 [params.page.comment.artalk]
 enable = true
@@ -176,7 +175,7 @@ avatar = ""
 gravatarEmail = "ygxb-net@outlook.com"
 
 # Permalinks 配置
-[Permalinks]
+[permalinks]
 # posts = ":year/:month/:filename"
 posts = "posts/:slug"
 

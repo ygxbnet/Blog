@@ -1,7 +1,7 @@
 ---
 title: "测试文章"
 date: 2023-08-04T21:03:12+08:00
-draft: false
+draft: true
 
 # 文章短链接
 slug: test

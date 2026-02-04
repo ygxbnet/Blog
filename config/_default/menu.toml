@@ -1,14 +1,14 @@
 [[main]]
-name = "文章"
-pageRef  = "/posts"
-weight = 1
+    name = "文章"
+    pageRef = "/posts"
+    weight = 1
 
 [[main]]
-name = "标签"
-pageRef  = "/tags"
-weight = 2
+    name = "标签"
+    pageRef = "/tags"
+    weight = 2
 
 [[main]]
-name = "分类"
-pageRef  = "/categories"
-weight = 3
+    name = "分类"
+    pageRef = "/categories"
+    weight = 3

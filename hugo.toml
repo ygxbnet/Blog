@@ -173,6 +173,10 @@ theme = "DoIt"
         avatar = ""
         gravatarEmail = "ygxb-net@outlook.com"
 
+    [params.analytics]
+        [params.analytics.cloudflare]
+            token = "0022fb5b33f24cb9b5dcaed58897114e"
+
 # Permalinks 配置
 [permalinks]
     # posts = ":year/:month/:filename"

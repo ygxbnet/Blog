@@ -103,3 +103,10 @@ void loop() {
 ```
 
 ![IMG_20260204_215311](https://img.ygxb.net/i/2026/02/04/69834fa40b553.webp)
+
+## 参考文档
+
+[ESP32-S3-DevKitC-1 v1.1 - ESP32-S3 - — esp-dev-kits latest 文档](https://docs.espressif.com/projects/esp-dev-kits/zh_CN/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#id19)
+
+[ESP32-S3 onboard RGB LED - Projects / Programming - Arduino Forum](https://forum.arduino.cc/t/esp32-s3-onboard-rgb-led/1198754/13)
+
